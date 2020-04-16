@@ -1,2 +1,2 @@
 # martingale
-This is a martingle betting method for trading
+This is a martingale betting method for trading
