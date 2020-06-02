@@ -5,6 +5,7 @@
 int main(){
 	float budget,*c_val,sum;
 	int c_count,i;
+	while(1){
 	printf("Enter Coefficient Count:\n");
 	scanf("%d",&c_count);
 	printf("Enter Your Budget:\n");
@@ -19,6 +20,6 @@ int main(){
 	for(i = 0; i < c_count; i++){
 		printf("%d:%f\n",i,c_val[i]*budget);
 	}
-	free(c_val);
+	free(c_val);}
 	return 0;
 }
